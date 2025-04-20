@@ -1,14 +1,9 @@
-import Cards from "./components/Card/Cards";
 import "./App.css";
-import NavbarRender from "./components/Navbar/NavbarRender";
-
+import AppRouter from "../routes";
 function App() {
   return (
     <>
-      <NavbarRender labelList={["Home", "PastaCards", "About"]} />
-      <div className="app">
-        <Cards />
-      </div>
+      <AppRouter />
     </>
   );
 }

@@ -1,6 +1,12 @@
-import React from "react";
+import NavbarRender from "../src/components/Navbar/NavbarRender";
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <>
+        <NavbarRender />
+      </>
+    </div>
+  );
 }
 
 export default Home;

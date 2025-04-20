@@ -1,6 +1,14 @@
-import React from "react";
+import Cards from "../src/components/Card/Cards";
+import NavbarRender from "../src/components/Navbar/NavbarRender";
 function PastaCards() {
-  return <div>PastaCards</div>;
+  return (
+    <>
+      <NavbarRender />
+      <div className="app">
+        <Cards />
+      </div>
+    </>
+  );
 }
 
 export default PastaCards;
