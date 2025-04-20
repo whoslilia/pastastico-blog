@@ -9,7 +9,7 @@ interface NavbarProps {
 
 function Navbar({ children }: NavbarProps) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary pt-0">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/home">
           <img
