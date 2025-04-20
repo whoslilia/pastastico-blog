@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import "./Navbar.css";
+import pastaIcon from "../../assets/icons/spaghetti.svg";
 
 interface NavbarProps {
   children: ReactNode;
@@ -7,10 +8,17 @@ interface NavbarProps {
 
 function Navbar({ children }: NavbarProps) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary pt-0">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src={pastaIcon}
+            alt="Logo"
+            width="30"
+            height="30"
+            className="me-2"
+          />
+          Pastástico
         </a>
         <button
           className="navbar-toggler"

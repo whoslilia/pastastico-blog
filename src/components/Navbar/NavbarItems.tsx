@@ -2,22 +2,13 @@ interface NavbarItemProps {
   label: string;
   href: string;
   active?: boolean;
-  disabled?: boolean;
 }
 
-export function NavbarItem({ label, href, active, disabled }: NavbarItemProps) {
-  const className = `nav-link${active ? " active" : ""}${
-    disabled ? " disabled" : ""
-  }`;
-
+export function NavbarItem({ label, href, active }: NavbarItemProps) {
+  const className = `nav-link${active ? " active" : ""}`;
   return (
     <li className="nav-item">
-      <a
-        className={className}
-        href={href}
-        aria-current={active ? "page" : undefined}
-        aria-disabled={disabled}
-      >
+      <a className={className} href={href}>
         {label}
       </a>
     </li>
