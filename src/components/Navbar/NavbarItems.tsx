@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 interface NavbarItemProps {
   label: string;
-  href: string;
+  toPage: string;
   active?: boolean;
 }
 
-export function NavbarItem({ label, href, active }: NavbarItemProps) {
+export function NavbarItem({ label, toPage, active }: NavbarItemProps) {
   const className = `nav-link${active ? " active" : ""}`;
   return (
     <li className="nav-item">
-      <a className={className} href={href}>
+      <Link className={className} to={toPage}>
         {label}
-      </a>
+      </Link>
     </li>
   );
 }

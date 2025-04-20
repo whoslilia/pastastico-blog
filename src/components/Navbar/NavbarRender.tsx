@@ -1,18 +1,16 @@
 import Navbar from "./";
 import NavbarItem from "./NavbarItems";
 
-interface NavbarRenderProps {
-  labelList: string[];
-}
+const labels = ["Home", "PastaCards", "About"];
 
-function NavbarRender({ labelList }: NavbarRenderProps) {
+function NavbarRender() {
   return (
     <Navbar>
-      {labelList.map((label, index) => (
+      {labels.map((label, index) => (
         <NavbarItem
           key={index}
           label={label}
-          href={`#${label}`}
+          toPage={`/${label.toLowerCase()}`}
           active={true}
         />
       ))}
