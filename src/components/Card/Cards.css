@@ -4,3 +4,14 @@
 .img-config {
   height: 200px;
 }
+.card-config {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -8,7 +8,7 @@ export function CardBody(props: CardBodyProps) {
   return (
     <>
       <h4 className="card-title">{title}</h4>
-      <p className="card-text text-secondary">{text}</p>
+      <p className="card-text text">{text}</p>
     </>
   );
 }
