@@ -1,16 +1,11 @@
 import Cards from "./components/Card/Cards";
-import Navbar from "./components/Navbar";
-import NavbarItem from "./components/Navbar/NavbarItems";
 import "./App.css";
+import NavbarRender from "./components/Navbar/NavbarRender";
 
 function App() {
   return (
     <>
-      <Navbar>
-        <NavbarItem label="Home" href="#" active />
-        <NavbarItem label="Servicios" href="#servicios" />
-        <NavbarItem label="Contacto" href="#contacto" />
-      </Navbar>
+      <NavbarRender labelList={["Home", "PastaCards", "About"]} />
       <div className="app">
         <Cards />
       </div>
