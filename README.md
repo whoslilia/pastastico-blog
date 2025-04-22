@@ -1,7 +1,7 @@
 # 🍝 Pastástico
 
 **Pastástico** es un mini blog sobre pastas, creado con React + TypeScript + Vite.  
-Aquí podrás encontrar recetas, historias, tips de cocina y todo lo relacionado con el mundo de las pastas.  
+Aquí podrás encontrar todo lo relacionado con el mundo de las pastas.  
 Diseñado con amor para foodies y cocineros curiosos 🍽️
 
 ---
