@@ -1,4 +1,4 @@
-import Navbar from "./";
+import Navbar from ".";
 import NavbarItem from "./NavbarItems";
 
 const labels = ["Home", "PastaCards", "About"];

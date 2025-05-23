@@ -4,7 +4,7 @@ import pasta3 from "../../assets/img/penne.webp";
 import pasta4 from "../../assets/img/ravioli.webp";
 import pasta5 from "../../assets/img/linguine.webp";
 import pasta6 from "../../assets/img/fusili.webp";
-import Card from "./";
+import Card from ".";
 import { CardBody } from "./CardBody";
 import "./Cards.css";
 
