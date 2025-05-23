@@ -1,6 +1,5 @@
-import Cards from "../src/components/Card/Cards";
-import NavbarRender from "../src/components/Navbar/NavbarRender";
-
+import Cards from "../components/Card/Cards";
+import NavbarRender from "../components/Navbar/NavbarRender";
 function PastaCards() {
   return (
     <>
