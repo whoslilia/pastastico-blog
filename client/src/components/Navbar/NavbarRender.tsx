@@ -1,7 +1,7 @@
 import Navbar from ".";
 import NavbarItem from "./NavbarItems";
 
-const labels = ["Home", "PastaCards", "About"];
+const labels = ["Home", "PastaCards", "Recipes", "About"];
 
 function NavbarRender() {
   return (

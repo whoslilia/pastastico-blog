@@ -1,0 +1,24 @@
+.boton-form {
+  background-color: rgb(218, 199, 149);
+  color: #212529;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.boton-form:hover {
+  background-color: rgb(209, 185, 125);
+  color: #212529;
+}
+
+.card-form {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-form:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
